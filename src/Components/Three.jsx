@@ -16,7 +16,7 @@ const Three = () => {
         start: "-20% 10%",
         end: "60% top",
         scrub:2,
-        markers:true,
+        
 
       },
     })
@@ -25,7 +25,7 @@ const Three = () => {
     <div>
       <div id='Denduluru' className="w-full h-screen bg-yellow-400    ">
         <div class="flex flex-col mla3 scale-125 justify-center h-screen">
-        <h1  className='text-center md:text-4xl mb-10  text-3xl Denduluru font-bold text-red-500'>DENDULURU</h1>
+        <h1  className='text-center md:text-4xl font-[Oswald] mb-10  text-3xl Denduluru font-bold text-red-500'>DENDULURU</h1>
           <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white">
             <div class="w-full md:w-1/3 h-[16rem] overflow-hidden bg-white grid place-items-center">
               <img
