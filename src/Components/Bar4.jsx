@@ -6,11 +6,11 @@ const Bar4 = () => {
       <Bar className='w-20 h-24 bar'
         data={
             { 
-                labels: ['  Radha Krishnayya',' Krishna Srinivas',' Mathe Bobby'],  //x-axis
+                labels: ['  Radha Krishnayya',' Krishna Srinivas',' Mathe Bobby'],  
                 datasets: [
                     {
                         label: 'Votes',
-                        data: [111562,49174,1770],  //y-axis
+                        data: [111562,49174,1770],  
                         
                         backgroundColor: ['yellow','blue','green'],
                         borderWidth: 1,
