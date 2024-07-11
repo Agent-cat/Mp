@@ -4,8 +4,8 @@ import { Chart } from 'chart.js/auto'
 
 const PiChart = () => {
   return (
-    <div>
-        <Bar className='w-20 h-24 bar'
+    <div className='md:w-80 w-72 h-auto'>
+        <Bar className='w-52 h-44 '
         data={
             { 
                 labels: ['Roshan Kumar',' Vijaya Raju',' Rakada Eliza'],  //x-axis

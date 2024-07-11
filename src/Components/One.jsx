@@ -1,6 +1,6 @@
 import React from "react";
 import Mp from "../assets/Mp.jpg";
-import {MLA} from "../Constants/Constants.jsx"
+
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import Three from "./Three.jsx";
@@ -167,7 +167,7 @@ const One = () => {
     
     
       
-      <div className="w-full h-[60vh] page1 md:mt-52 mt-28   bg-yellow-400 flex-row md:flex  ">
+      <div className="w-full h-[60vh] page1 md:mt-52 mt-28    bg-yellow-400 flex-row md:flex ">
         <img
           className="w-[29rem] ml-[-30px] Mp1 h-[25rem] rounded-r-full"
           src={Mp}

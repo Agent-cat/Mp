@@ -2,8 +2,8 @@ import React from 'react'
 import { Bar} from 'react-chartjs-2'
 const Bar3 = () => {
   return (
-    <div>
-      <Bar className='w-20 h-24 bar'
+    <div className='md:w-80 w-72 h-auto'>
+      <Bar className='w- h-24 bar'
         data={
             { 
                 labels: [' Prabhakar',' Abbaya Chowdary',' Nota'],  //x-axis
