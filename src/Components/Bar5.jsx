@@ -7,11 +7,11 @@ const Bar5 = () => {
       
         data={
             { 
-                labels: ['Kamineni Srinivas','Nageswara Rao',' Boddu Noble'],  //x-axis
+                labels: ['Kamineni Srinivas','Nageswara Rao',' Boddu Noble'],  
                 datasets: [
                     {
                         label: 'Votes',
-                        data: [109280,64007,2480],  //y-axis
+                        data: [109280,64007,2480],  
                         
                         backgroundColor: ['yellow','blue','green'],
                         borderWidth: 1,
