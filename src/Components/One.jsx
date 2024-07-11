@@ -173,7 +173,7 @@ const One = () => {
           alt="Vishnu"
         />
         
-        <h1 className="md:text-8xl text-6xl  font-bold font-[Oswald] mt-10 text ">
+        <h1 className="md:text-8xl text-6xl md:ml-6  font-bold font-[Oswald] mt-10 text ">
           Putta Mahesh Kumar
           <br />
           <span className="text-2xl  md:text-4xl ml-8 text-red-500">

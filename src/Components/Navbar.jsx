@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
   <center className=" items-center md:flex hidden justify-center">
-    <nav className=" z-50 backdrop-filter   backdrop-blur-xl navbar w-[80%] h-16 bg-black outline-none bg-opacity-35 fixed top-5 rounded-lg  ">
+    <nav className=" z-50 backdrop-filter   backdrop-blur-xl navbar xl:w-[80%]   h-16 bg-black outline-none bg-opacity-35 fixed top-5 rounded-lg  ">
       <div className=" flex justify-center  gap-11 p-5 items-center font-bold text-white text-xl">
        <Link className="links hover:cursor-pointer" spy={true} smooth={true} offset={50} duration={500}  to="Chintalapudi">Chintalapudi</Link>
        <Link className="links hover:cursor-pointer"spy={true} smooth={true} offset={50} duration={500} to="Denduluru">Denduluru</Link>
