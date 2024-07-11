@@ -1,18 +1,16 @@
 import React from 'react'
 import { Bar} from 'react-chartjs-2'
-import { Chart } from 'chart.js/auto'
-
-const PiChart = () => {
+const Bar6 = () => {
   return (
     <div>
-        <Bar className='w-20 h-24 bar'
+      <Bar className='w-20 h-24 bar'
         data={
             { 
-                labels: ['Roshan Kumar',' Vijaya Raju',' Rakada Eliza'],  //x-axis
+                labels: ['Parthasarathy',' Venkata Pratap ','Nota'],  //x-axis
                 datasets: [
                     {
                         label: 'Votes',
-                        data: [120126,92360,4958],  //y-axis
+                        data: [108229,95851,2771],  //y-axis
                         
                         backgroundColor: ['yellow','blue','green'],
                         borderWidth: 1,
@@ -26,9 +24,8 @@ const PiChart = () => {
         }>
 
         </Bar>
-      
     </div>
   )
 }
 
-export default PiChart
+export default Bar6

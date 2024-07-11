@@ -1,5 +1,6 @@
 import React from 'react'
 import img5 from "../assets/Nuzivid.jpg"
+import Bar6 from './Bar6'
 const Six = () => {
   return (
     <div>
@@ -20,12 +21,7 @@ const Six = () => {
               <h3 class="font-black text-gray-800 md:text-3xl text-xl">
               Kolusu Parthasarathy
               </h3>
-              <p class="md:text-lg text-gray-500 text-base">
-               
-              </p>
-              <p class="text-xl font-black text-gray-800">
-               
-              </p>
+              <Bar6/>
             </div>
           </div>
         </div>

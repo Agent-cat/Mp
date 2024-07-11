@@ -1,5 +1,6 @@
 import React from 'react'
 import img4 from "../assets/Kaikaluru.jpg"
+import Bar5 from './Bar5'
 const Five = () => {
   return (
     <div>
@@ -20,12 +21,7 @@ const Five = () => {
               <h3 class="font-black text-gray-800 md:text-3xl text-xl">
               Kamineni Srinivas
               </h3>
-              <p class="md:text-lg text-gray-500 text-base">
-               
-              </p>
-              <p class="text-xl font-black text-gray-800">
-                
-              </p>
+              <Bar5/>
             </div>
           </div>
         </div>

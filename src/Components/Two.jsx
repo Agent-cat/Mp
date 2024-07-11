@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Img1 from '../assets/Chintalapudi(SC).jpg'
 import PiChart from './PiChart'
+
+
 const Two = () => {
   
   return (
@@ -23,7 +25,10 @@ const Two = () => {
               <h3 class="font-black text-gray-800 md:text-3xl text-xl">
               Roshan Kumar Songa
               </h3>
+              
               <PiChart/>
+              
+              
               
             </div>
           </div>

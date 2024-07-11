@@ -14,7 +14,7 @@ import ScrollTriger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTriger);
-gsap.registerPlugin();
+
 const One = () => {
   useGSAP(() => {
     const timeline = gsap.timeline();
@@ -158,6 +158,7 @@ const One = () => {
        
       },
     });
+    
     
   }, []);
 

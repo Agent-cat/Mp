@@ -1,5 +1,6 @@
 import React from 'react'
 import img2 from "../assets/Denduluru.jpg"
+import Bar3 from './Bar3'
 const Three = () => {
   return (
     <div>
@@ -20,12 +21,7 @@ const Three = () => {
               <h3 class="font-black text-gray-800 md:text-3xl text-xl">
               Chintamaneni Prabhakar
               </h3>
-              <p class="md:text-lg text-gray-500 text-base">
-               
-              </p>
-              <p class="text-xl font-black text-gray-800">
-                
-              </p>
+              <Bar3/>
             </div>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import img3 from "../assets/Eluru.jpg"
+import { Bar} from 'react-chartjs-2'
+import Bar4 from './Bar4'
 const Four = () => {
   return (
     <div>
@@ -20,12 +22,7 @@ const Four = () => {
               <h3 class="font-black text-gray-800 md:text-3xl text-xl">
               Radha Krishnayya Badeti
               </h3>
-              <p class="md:text-lg text-gray-500 text-base">
-                
-              </p>
-              <p class="text-xl font-black text-gray-800">
-                
-              </p>
+              <Bar4/>
             </div>
           </div>
         </div>
